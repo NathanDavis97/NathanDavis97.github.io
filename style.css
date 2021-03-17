@@ -1,3 +1,19 @@
-.banner{
-  height: 400;
+body { min-height: 100vh; display: flex; flex-direction: column; }
+/* header{ }  */
+main{flex-grow: 1;} 
+footer{ min-height: 100px;display: flex; flex-direction: column; background-color: #07070aff;
+}
+.navy{
+--bright-navy-blue: #3e78b2ff;}
+.cobalt{
+  background-color: #004ba8ff;
+}
+.charcoal{
+  background-color: #4a525aff;
+}
+.raisin{
+  background-color: #24272bff;
+}
+.richblack{
+  background-color: #07070aff;
 }
