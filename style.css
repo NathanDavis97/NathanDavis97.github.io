@@ -17,3 +17,13 @@ footer{ min-height: 100px;display: flex; flex-direction: column; background-colo
 .richblack{
   background-color: #07070aff;
 }
+.bottom-border-rich{
+  padding-bottom: .35em;
+      border-bottom: 1px solid ;
+      border-bottom-color: #07070aff;
+}
+.bottom-border-cobalt{
+  padding-bottom: .35em;
+      border-bottom: 1px solid ;
+      border-bottom-color: #004ba8ff;
+}
