@@ -32,3 +32,11 @@ footer{ min-height: 100px;display: flex; flex-direction: column; background-colo
   padding-left: 2em
   ;
 }
+
+.overflow{
+  overflow-x: hidden;
+}
+
+.nopad{
+  padding: 0;
+}
