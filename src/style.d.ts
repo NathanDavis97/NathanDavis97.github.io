@@ -17,5 +17,6 @@ declare module "react" {
     // extends React's HTMLAttributes
     height?: string;
     width?: string;
+    backgroundColor?: string;
   }
 }
