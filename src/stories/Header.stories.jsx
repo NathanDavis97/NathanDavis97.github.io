@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Header } from './Header.tsx';
+import { Header } from './Header.jsx';
 
 export default {
   title: 'Example/Header',
