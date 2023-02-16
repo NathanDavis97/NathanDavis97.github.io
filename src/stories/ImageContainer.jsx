@@ -4,7 +4,12 @@ import styled from "styled-components";
 const Container = styled.div``;
 
 export const ImageContainer = ({ size = "", label = "", ...props }) => {
-  return <Container> text displayed</Container>;
+  return (
+    <Container>
+      text displayed
+      <img></img>
+    </Container>
+  );
 };
 
 ImageContainer.defaultProps = {
