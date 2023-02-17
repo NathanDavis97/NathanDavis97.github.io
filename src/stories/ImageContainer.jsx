@@ -6,7 +6,7 @@ const Container = styled.div``;
 export const ImageContainer = ({ size = "", label = "", ...props }) => {
   return (
     <Container>
-      text displayed
+      text displayed inside container
       <img></img>
     </Container>
   );
