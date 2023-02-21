@@ -18,4 +18,6 @@ export const Primary = Template.bind({});
 Primary.args = {
   label: "ImageContainer",
   src: keeprPic,
+  height: "100px",
+  width: "100px",
 };

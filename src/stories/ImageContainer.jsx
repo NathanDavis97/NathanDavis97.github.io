@@ -1,14 +1,29 @@
 import React from "react";
 import styled from "styled-components";
 
-const Container = styled.div``;
+const Container = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  height: ${(props) => props.height};
+  width: ${(props) => props.width};
+`;
 
-export const ImageContainer = ({ size = "", label = "", src, ...props }) => {
+const Image = styled.img`
+  height: 100%;
+  width: 100%;
+`;
+
+export const ImageContainer = ({
+  width = "",
+  height = "",
+  label = "",
+  src,
+  ...props
+}) => {
   console.log(src);
   return (
-    <Container>
-      text displayed inside container
-      <img src={src} alt="alt" />
+    <Container width={width} height={height}>
+      <Image src={src} alt="alt" />
     </Container>
   );
 };
@@ -16,6 +31,7 @@ export const ImageContainer = ({ size = "", label = "", src, ...props }) => {
 ImageContainer.defaultProps = {
   backgroundColor: null,
   primary: false,
-  size: "medium",
+  width: null,
+  height: null,
   onClick: undefined,
 };
