@@ -3,11 +3,12 @@ import styled from "styled-components";
 
 const Container = styled.div``;
 
-export const ImageContainer = ({ size = "", label = "", ...props }) => {
+export const ImageContainer = ({ size = "", label = "", src, ...props }) => {
+  console.log(src);
   return (
     <Container>
       text displayed inside container
-      <img></img>
+      <img src={src} alt="alt" />
     </Container>
   );
 };
