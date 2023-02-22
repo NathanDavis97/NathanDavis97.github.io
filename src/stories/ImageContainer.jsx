@@ -17,13 +17,14 @@ export const ImageContainer = ({
   width = "",
   height = "",
   label = "",
+  alt,
   src,
   ...props
 }) => {
   console.log(src);
   return (
     <Container width={width} height={height}>
-      <Image src={src} alt="alt" />
+      <Image src={src} alt={alt} />
     </Container>
   );
 };
