@@ -20,4 +20,5 @@ Primary.args = {
   src: keeprPic,
   height: "100px",
   width: "100px",
+  alt:"keepr image"
 };
