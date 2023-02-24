@@ -21,7 +21,6 @@ export const ImageContainer = ({
   src,
   ...props
 }) => {
-  console.log(src);
   return (
     <Container width={width} height={height}>
       <Image src={src} alt={alt} />
