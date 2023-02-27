@@ -14,9 +14,9 @@ const Image = styled.img`
 `;
 
 export const ImageContainer = ({
-  width = "",
-  height = "",
-  label = "",
+  width,
+  height ,
+  label ,
   alt,
   src,
   ...props
