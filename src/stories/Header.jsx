@@ -1,5 +1,9 @@
 import React from "react";
 
-export const Header = ({}) => <header></header>;
+export const Header = ({ copy }) => (
+  <header>
+    <div>{copy}</div>
+  </header>
+);
 
 Header.propTypes = {};
