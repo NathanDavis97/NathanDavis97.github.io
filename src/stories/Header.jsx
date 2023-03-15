@@ -6,4 +6,4 @@ export const Header = ({ copy }) => (
   </header>
 );
 
-Header.propTypes = {};
+
