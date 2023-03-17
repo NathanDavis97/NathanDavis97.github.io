@@ -19,6 +19,3 @@ LoggedIn.args = {
     name: 'Jane Doe',
   },
 };
-
-export const LoggedOut = Template.bind({});
-LoggedOut.args = {};
