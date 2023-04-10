@@ -1,8 +1,8 @@
 import React from "react";
 
-export const Header = ({ copy }) => (
+export const Header = ({ title }) => (
   <header>
-    <div>{copy}</div>
+    <div>{title}</div>
   </header>
 );
 
