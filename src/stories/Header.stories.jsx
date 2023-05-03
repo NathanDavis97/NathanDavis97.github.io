@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Header } from './Header';
+import { Header } from './Header.jsx';
 
 export default {
   title: 'Example/Header',
@@ -19,6 +19,3 @@ LoggedIn.args = {
     name: 'Jane Doe',
   },
 };
-
-export const LoggedOut = Template.bind({});
-LoggedOut.args = {};
